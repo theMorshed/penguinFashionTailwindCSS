@@ -10,31 +10,46 @@
 </head>
 <body>
     <!-- header start -->
-    <header class="w-10/12 mx-auto">
-        <div class="navigation-container flex justify-between my-10">
-            <div class="logo">
-                <img width="290" height="40" src="images/logo.png" alt="logo">
+    <header class="bg-amber-50 pb-28">
+        <div class="container w-10/12 mx-auto">
+            <!-- navigation bar start -->
+            <div class="navigation-container flex justify-between py-10">
+                <div class="logo">
+                    <a href="#"><img width="290" height="40" src="images/logo.png" alt="logo"></a>
+                </div>
+                <div class="nav-menu">
+                    <nav>
+                        <ul class="flex gap-x-8">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div class="nav-menu">
-                <nav>
-                    <ul class="flex gap-x-8">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </nav>
+            <!-- navigation bar end -->
+
+            <!-- banner start -->
+            <div class="banner-container flex justify-between">
+                <div class="banner-left mt-10">
+                    <h1 class="text-7xl font-serif font-semibold text-yellow-400">
+                        Be the Penguins<br>
+                        <span class="text-slate-700">of Winter</span>
+                    </h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry.
+                    </p>
+                    <button class="bg-lime-700 px-6 py-3 rounded flex text-white items-center mt-4">
+                        <img class="mr-1" width="24" height="24" src="icons/shopping-cart 1.png" alt="cart image">
+                        Buy Now
+                    </button>
+                </div>
+                <div class="banner-right mr-24">
+                    <img src="images/model.png" alt="model image">
+                </div>
             </div>
-        </div>
-        <div class="banner-container flex justify-between">
-            <div class="banner-left">
-                <h1>Be the Penguins<br><span>of Winter</span></h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button><img src="icons/shopping-cart 1.png" alt="cart image">Buy Now</button>
-            </div>
-            <div class="banner-right">
-                <img src="images/model.png" alt="model image">
-            </div>
+            <!-- banner end -->
         </div>
     </header>
     <!-- header end -->
